@@ -10,3 +10,15 @@ navLinks.querySelectorAll('a').forEach((link) => {
     navLinks.classList.remove('open');
   });
 });
+
+const screen=document.getElementById("welcome-screen");
+
+const music=document.getElementById("music");
+
+screen.addEventListener("click",()=>{
+
+music.play();
+
+screen.style.display="none";
+
+});
